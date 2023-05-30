@@ -1,0 +1,40 @@
+* {
+    list-style: none;
+    font-family: Arial;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    text-decoration: none;
+}
+
+:root{
+    --text: #FFFF;
+    --roxo1: rgb(193, 154, 255);
+    --roxo2: rgba(138, 66, 255, 0.705);
+}
+
+body {
+    background-color: rgb(193, 154, 255);
+}
+
+header {
+    margin-top: 0px;
+    height: 5rem;
+    background-color: rgba(138, 66, 255, 0.705);
+}
+.title{
+    color: white;
+    margin-left: -110rem;
+}
+
+li {
+    margin-top:1.5rem;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    margin-left: 1rem;
+}
+.bar-up{
+    align-items: center;
+    margin-left: 100rem;
+}
